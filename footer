@@ -1,0 +1,29 @@
+<style>
+* {
+  padding:0;
+  margin:0;
+}
+html {
+  _overflow:auto;
+}
+body{
+  width:expression(this.parentNode.clientWidth);//IE body 比html要宽
+}
+html,body{
+  height:100%;
+}
+.section{
+  min-height:100%;
+  _height:100%;
+}
+.footer{
+  height:60px;
+  background:#000;
+  margin-top:-60px;
+  color:#FFF;
+}
+</style>
+<div class="section">
+</div>
+<div class="footer">
+</div>
